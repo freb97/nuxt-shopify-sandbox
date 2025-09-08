@@ -18,6 +18,6 @@
         "typescript": "latest"
     },
     "stackblitz": {
-        "startCommand": "bun run dev"
+        "startCommand": "npm run dev"
     }
 }
