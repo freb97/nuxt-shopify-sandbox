@@ -1,0 +1,23 @@
+{
+    "name": "nuxt-shopify-sandbox",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "@konkonam/nuxt-shopify": "latest",
+        "@nuxt/ui": "latest",
+        "nuxt": "latest"
+    },
+    "devDependencies": {
+        "typescript": "latest"
+    },
+    "stackblitz": {
+        "startCommand": "bun run dev"
+    }
+}
