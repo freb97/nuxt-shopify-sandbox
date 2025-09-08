@@ -1,6 +1,7 @@
 {
     "name": "nuxt-shopify-sandbox",
     "type": "module",
+    "license": "MIT",
     "private": true,
     "scripts": {
         "build": "nuxt build",
@@ -16,6 +17,9 @@
     },
     "devDependencies": {
         "typescript": "latest"
+    },
+    "engines": {
+        "node": "^18.x || ^20.x || ^22.x || ^24.x"
     },
     "stackblitz": {
         "startCommand": "npm run dev"
