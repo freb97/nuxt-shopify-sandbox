@@ -11,11 +11,15 @@
         "postinstall": "nuxt prepare"
     },
     "dependencies": {
-        "@konkonam/nuxt-shopify": "latest",
         "@nuxt/ui": "latest",
-        "nuxt": "latest"
+        "@nuxtjs/shopify": "latest",
+        "nuxt": "latest",
+        "tailwindcss": "latest",
+        "vue": "latest",
+        "vue-router": "latest"
     },
     "devDependencies": {
+        "@vue/compiler-sfc": "latest",
         "typescript": "latest"
     },
     "engines": {
