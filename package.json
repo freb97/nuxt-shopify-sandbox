@@ -11,6 +11,9 @@
         "postinstall": "nuxt prepare"
     },
     "dependencies": {
+        "@oxc-transform/binding-wasm32-wasi": "0.94.0",
+        "@oxc-parser/binding-wasm32-wasi": "0.94.0",
+        "@oxc-minify/binding-wasm32-wasi": "0.94.0",
         "@nuxt/ui": "latest",
         "@nuxtjs/shopify": "latest",
         "nuxt": "latest",
