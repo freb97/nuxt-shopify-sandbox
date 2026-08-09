@@ -1,6 +1,6 @@
 # Nuxt Shopify Sandbox
 
-Minimal implementation of a Nuxt 4 app with [Nuxt Shopify](https://konkonam.github.io/nuxt-shopify) and [Mock.shop](https://mock.shop).
+Minimal implementation of a Nuxt 4 app with [Nuxt Shopify](https://github.com/nuxt-modules/shopify) and [Mock.shop](https://mock.shop).
 
 - 🏀 [Online Demo](https://stackblitz.com/github/freb97/nuxt-shopify-sandbox?file=app%2Fpages%2Findex.vue)
 
@@ -34,4 +34,4 @@ Locally preview production build:
 pnpm run preview
 ```
 
-Check out the [module documentation](https://konkonam.github.io/nuxt-shopify) for more information.
+Check out the [module documentation](https://shopify.nuxtjs.org) for more information.
