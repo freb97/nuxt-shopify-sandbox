@@ -4,3 +4,6 @@ allowBuilds:
   vue-demi: true
 
 minimumReleaseAge: 0
+
+packages:
+  - "."
