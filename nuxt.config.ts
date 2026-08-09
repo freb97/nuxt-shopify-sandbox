@@ -5,11 +5,7 @@ export default defineNuxtConfig({
         '@nuxt/ui', 
     ],
 
-    compatibilityDate: '2025-07-15',
-
-    css: [
-        '~/assets/css/main.css'
-    ],
+    compatibilityDate: '2026-08-09',
 
     shopify: {
         name: 'nuxt-shopify-sandbox',
