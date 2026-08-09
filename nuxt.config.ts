@@ -25,8 +25,6 @@ export default defineNuxtConfig({
         clients: {
             storefront: {
                 mock: true, // Use mock.shop for testing without a real store
-
-                apiVersion: '2025-07',
             }
         }
     }

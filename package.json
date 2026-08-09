@@ -10,19 +10,19 @@
         "preview": "nuxt preview"
     },
     "dependencies": {
-        "@nuxt/ui": "^4.1.0",
-        "@nuxtjs/shopify": "latest",
-        "@oxc-minify/binding-wasm32-wasi": "0.94.0",
-        "@oxc-parser/binding-wasm32-wasi": "0.94.0",
-        "@oxc-transform/binding-wasm32-wasi": "0.94.0",
-        "@vue/compiler-sfc": "^3.5.22",
-        "nuxt": "^4.2.0",
-        "tailwindcss": "^4.1.16",
-        "vue": "^3.5.22",
-        "vue-router": "^4.6.3"
+        "@nuxt/ui": "^4.10.0",
+        "@nuxtjs/shopify": "0.9.1",
+        "@oxc-minify/binding-wasm32-wasi": "^0.143.0",
+        "@oxc-parser/binding-wasm32-wasi": "^0.143.0",
+        "@oxc-transform/binding-wasm32-wasi": "^0.143.0",
+        "@vue/compiler-sfc": "^3.5.41",
+        "nuxt": "^4.5.2",
+        "tailwindcss": "^4.3.3",
+        "vue": "^3.5.41",
+        "vue-router": "^5.2.0"
     },
     "devDependencies": {
-        "typescript": "^5.9.3"
+        "typescript": "^6.0.3"
     },
     "engines": {
         "node": "^18.x || ^20.x || ^22.x || ^24.x"

@@ -7,9 +7,6 @@ const { data: products, error } = await useStorefrontData('products', `#graphql
             }
         }
     }
-    ${PRODUCT_FRAGMENT}
-    ${IMAGE_FRAGMENT}
-    ${PRICE_FRAGMENT}
 `, {
     variables: {
         first: 10,
