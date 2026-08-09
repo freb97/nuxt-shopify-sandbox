@@ -7,7 +7,8 @@
         "build": "nuxt build",
         "dev": "nuxt dev",
         "generate": "nuxt generate",
-        "preview": "nuxt preview"
+        "preview": "nuxt preview",
+        "prepare": "nuxt prepare"
     },
     "dependencies": {
         "@nuxt/ui": "^4.10.0",
@@ -17,6 +18,10 @@
     "devDependencies": {
         "typescript": "^6.0.3"
     },
+    "engines": {
+        "node": ">=22"
+    },
+    "packageManager": "pnpm@11.5.3",
     "stackblitz": {
         "installDependencies": false,
         "startCommand": "pnpm install && pnpm run dev"
