@@ -7,6 +7,18 @@ export default defineNuxtConfig({
 
     compatibilityDate: '2026-08-09',
 
+    css: [
+        '~/assets/css/main.css'
+    ],
+
+    fonts: {
+        providers: {
+            google: false,
+            googleicons: false,
+            fontshare: false,
+        },
+    },
+
     shopify: {
         name: 'nuxt-shopify-sandbox',
 
