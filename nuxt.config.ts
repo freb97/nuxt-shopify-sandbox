@@ -11,14 +11,6 @@ export default defineNuxtConfig({
         '~/assets/css/main.css'
     ],
 
-    icon: {
-        provider: 'iconify',
-    },
-
-    fonts: {
-        provider: 'fontshare',
-    },
-
     shopify: {
         name: 'nuxt-shopify-sandbox',
 
