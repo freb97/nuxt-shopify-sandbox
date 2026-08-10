@@ -27,11 +27,11 @@ const alt = computed(() => props.product.featuredImage?.altText || props.product
             />
         </template>
 
-        <h2 class="text-xl">
+        <h2 class="text-xl font-bold">
             {{ props.product.title }}
         </h2>
 
-        <p class="mt-2 text-sm font-medium text-gray-300">
+        <p class="mt-2 text-sm font-medium text-gray-600">
             from {{ getPrice(props.product.priceRange.minVariantPrice.amount) }}
         </p>
     </UCard>

@@ -11,12 +11,8 @@ export default defineNuxtConfig({
         '~/assets/css/main.css'
     ],
 
-    fonts: {
-        providers: {
-            google: false,
-            googleicons: false,
-            fontshare: false,
-        },
+    ui: {
+        fonts: false,
     },
 
     shopify: {
